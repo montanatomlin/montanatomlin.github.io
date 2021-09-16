@@ -1,0 +1,119 @@
+body{
+	background-color: #808080;
+}
+.title{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-size: 40px;
+}
+.travel-container{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-gap: 20px;
+}
+.grid{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-gap: 10px;
+	border: 5px solid black;
+
+
+
+}
+
+.london-images{
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 120px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	margin-top: 20px;
+
+}
+.cafe{
+	height: 300px;
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+
+.palace{
+	height: 300px;
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h3 {
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+p{
+	text-align: justify;
+	padding-left: 20px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.fri-after , .sat-after{
+	padding-right: 20px;
+}
+.sun-pm-text, .sun-am-text, .sat-late-text, .fri-late-text{
+	text-align: center;
+}
+.london-images-sat{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 50px;
+	padding-bottom: 15px;
+
+
+}
+ .london-eye, .big-ben, .duck-waffle{
+	height: 300px;
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+.london-images-sun{
+		display: inline-grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 120px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+ .andina, .bus-london{
+	height: 300px;
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+@media(max-width:800px){
+	.travel-container{
+		display: flex;
+		flex-direction: column;
+
+		
+	}
+	.grid{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.london-images,.london-images-sat, .london-images-sun{
+		display: none;
+
+	}
+}

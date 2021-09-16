@@ -1,0 +1,96 @@
+body{
+	background-color: #808080;
+}
+.title{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-size: 40px;
+}
+.travel-container{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-gap: 20px;
+}
+.grid{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-gap: 10px;
+	border: 5px solid black;
+	
+
+}
+
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+	
+}
+ h3{
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	}
+	p{
+		font-family: 'Roboto', sans-serif;
+		padding: 8px;
+		text-align: justify;
+		font-size: 15px;
+	}
+	.sun-pm-text, .sun-am-text, .sat-am-text{
+		text-align: center;
+	}
+
+.ny-images{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 50px;
+	padding-bottom: 15px;
+}
+.delancey, .tacos, .times-square{
+		height: 300px;
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+.poco, .highline, .westlight{
+		height: 300px;
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+.ny-images-sun{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 120px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.blvd-bistro, .empire-state{
+	height: 300px;
+	width: 350px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+@media(max-width:800px){
+	.travel-container{
+		display: flex;
+		flex-direction: column;
+
+		
+	}
+	.grid{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.ny-images, .ny-images-sun{
+		display: none;
+
+	}
