@@ -25,7 +25,7 @@ header{
     border-radius: 25px;
 }
 .uk-image{
-	background-image: url("images/uk-image.jpeg");
+	background-image: url("../images/uk-image.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:cover;
