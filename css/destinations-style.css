@@ -16,7 +16,7 @@ header{
 	grid-template-columns: 1fr 1fr;
 }
 .ny-image{
-	background-image: url("/Users/montanatomlin/Desktop/fewd_final_project/images/ny-image.jpeg");
+	background-image: url("images/ny-image.jpeg");
 	 height: 300px;
 	 width: 300px;
     background-position: center;
@@ -25,7 +25,7 @@ header{
     border-radius: 25px;
 }
 .uk-image{
-	background-image: url("/Users/montanatomlin/Desktop/fewd_final_project/images/uk-image.jpeg");
+	background-image: url("images/uk-image.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:cover;
